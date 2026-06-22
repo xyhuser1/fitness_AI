@@ -15,7 +15,7 @@ import java.util.Map;
 
 @Service
 public class AiServiceImpl implements AiService {
-    private static final String API_KEY = "YOUR_DEEPSEEK_API_KEY";
+    private static final String API_KEY = System.getenv("DEEPSEEK_API_KEY");
     private static final String API_URL = "https://api.deepseek.com/v1/chat/completions";
     @Override
     public String analyze(String userInfo, String dietInfo, String sportInfo) {
