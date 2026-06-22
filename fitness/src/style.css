@@ -1,0 +1,35 @@
+/* 背景 */
+.login-back{
+ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+min-height: 100vh;}
+/* 登录界面*/
+.window{
+   width: 700px;
+   height: 700px;
+   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+   margin: 50px auto;
+   border-radius: 20px;
+   text-align: center;
+   box-shadow: 0 10px 25px rgba(0,0,0,0.1);  
+}
+/* 输入框 */
+.login_input{ 
+   width: 300px;
+   height: 30px;
+   border: 1px solid rgb(235, 8, 8);
+   background-color: rgb(249, 249, 249);
+   text-align: center;
+   margin:10px auto;
+}
+.input-1{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bt_css{
+width: 100px;
+height:40px;
+margin: 0  20px;
+text-align: center;
+}
